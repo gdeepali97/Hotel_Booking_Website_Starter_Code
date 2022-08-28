@@ -5,6 +5,8 @@
 }
 #article .anchor {
     text-align: center;
+    margin: -5%;
+    padding: 67px;
 }
 
 #article .anchor a {
@@ -12,6 +14,9 @@
     color: black;
     /* margin-bottom: 50px; */
 }
+a{
+    text-decoration: none;
+ }
 #article .search form input {
     width: 400px;
     border: 1px solid white;
@@ -27,13 +32,14 @@
 }
 #article .search {
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-    height: 400px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 170px;
 
 }
 
@@ -56,7 +62,7 @@
     width: 150px;
 }
 #article .cards .card img {
-    border-radius: 25px;
+    border-radius: 30px;
     /* width: 150px;
     height: 150px; */
   }
@@ -65,10 +71,10 @@
   }
   .middle {
     position: absolute;
-    top: 50%;
-    left: 45px;
+    top: 44%;
+    left: 53px;
     opacity: -1;
-    margin: auto;
+    
 }
 .middle .text {
     margin: auto;
@@ -80,6 +86,7 @@
   #article .cards .card:hover .image {
     /* opacity: 0.5; */
     filter: brightness(40%);
+    cursor: pointer;
   }
   @media screen and (min-device-width: 576px) and (max-device-width: 768px) {
     /* STYLES HERE */
@@ -101,7 +108,7 @@
         /* width: 600px; */
     }
     #article .cards .card {
-        position: relative;
+       
         display: flex;
         justify-content: center;
         align-items: center;
@@ -110,14 +117,7 @@
   }
   
   @media screen and (max-device-width: 576px) {
-    #article .cards .card {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 150px;
-        margin-bottom: 20px;
-    }
+   
     #article {
         height: 1280px;
         display: flex;
@@ -146,4 +146,15 @@
         /* width: 600px; */
   
     }
+    article .cards .card {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        margin-bottom: 20px;
+    }
 } 
+#none{
+    display: none;
+}
